@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">SharedPreferences</string>
-    <string name="edit_text">Ingrese un texto</string>
-    <string name="button">Guardar </string>
+    <string name="edit_text">Enter a text</string>
+    <string name="button_save">Save </string>
+    <string name="button_go">Go to Activity 2</string>
+    <string name="button_exit">Exit</string>
 
 </resources>

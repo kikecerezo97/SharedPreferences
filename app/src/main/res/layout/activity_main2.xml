@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Main2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,9 +17,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/edit_text"
-            android:inputType="textPersonName"
             android:importantForAutofill="no"
-            />
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/button"
@@ -28,18 +27,6 @@
             android:onClick="Save"
             android:text="@string/button_save" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="Save"
-            android:text="@string/button_go" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="Save"
-            android:text="@string/button_exit" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
